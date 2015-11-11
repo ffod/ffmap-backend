@@ -3,7 +3,7 @@
     "node_id": "barnitz",
     "hostname": "GW_Barnitz",
     "hardware": {
-        "model": "x64"
+        "model": "VMx64"
     },
     "software": {
         "firmware": {
