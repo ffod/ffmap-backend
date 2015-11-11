@@ -3,7 +3,7 @@
     "node_id": "barnitz",
     "hostname": "GW_Barnitz",
     "hardware": {
-        "model": "VMx64"
+        "model": "x64"
     },
     "software": {
         "firmware": {
@@ -105,6 +105,34 @@
           "interfaces": {
             "tunnel": [
               "00:5b:27:80:00:12"
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "node_id": "id",
+    "hostname": "Name",
+    "hardware": {
+        "model": "Architektur"
+    },
+    "software": {
+        "firmware": {
+                "release": "Release",
+                "base": "Base"
+        }
+    },
+    "location": {
+      "longitude": 10.42666,
+      "latitude": 53.72666
+    },
+    "network": {
+      "mesh": {
+        "bat0": {
+          "interfaces": {
+            "tunnel": [
+              "00:5b:27:80:00:22"
             ]
           }
         }
