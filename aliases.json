@@ -19,7 +19,7 @@
                 "enabled": "true"
         },
         "firmware": {
-                "release": "jessie",
+                "release": "Jessie",
                 "base": "Debian"
         }
     },
@@ -60,7 +60,7 @@
                 "enabled": "true"
         },
         "firmware": {
-                "release": "jessie",
+                "release": "Jessie",
                 "base": "Debian"
         }
     },
@@ -78,7 +78,7 @@
           }
         }
       },
-      "addresses": ["fddf:bf7:80:0:0:0:a38:3", "fe80:0:0::0:0:0:a38:3"]
+      "addresses": ["fddf:bf7:80:0:0:0:a38:3"]
     }
   },
   {
@@ -101,7 +101,7 @@
                 "enabled": "true"
         },
         "firmware": {
-                "release": "jessie",
+                "release": "Jessie",
                 "base": "Debian"
         }
     },
@@ -119,7 +119,7 @@
           }
         }
       },
-      "addresses": ["fddf:bf7:80:0:0:0:a38:4", "fe80:0:0::0:0:0:a38:4"]
+      "addresses": ["fddf:bf7:80:0:0:0:a38:4"]
     }
   },
   {
@@ -142,7 +142,7 @@
                 "enabled": "true"
         },
         "firmware": {
-                "release": "jessie",
+                "release": "Jessie",
                 "base": "Debian"
         }
     },
@@ -160,7 +160,7 @@
           }
         }
       },
-      "addresses": ["fddf:bf7:80:0:0:0:a38:12", "fe80:0:0::0:0:0:a38:12"]
+      "addresses": ["fddf:bf7:80:0:0:0:a38:12"]
     }
   }
 ]
