@@ -1,0 +1,115 @@
+[
+  {
+    "node_id": "barnitz",
+    "hostname": "GW_Barnitz",
+    "hardware": {
+        "model": "x64"
+    },
+    "software": {
+        "firmware": {
+                "release": "jessie",
+                "base": "Debian"
+        }
+    },
+    "location": {
+      "longitude": 10.42472,
+      "latitude": 53.72556
+    },
+    "network": {
+      "mesh": {
+        "bat0": {
+          "interfaces": {
+            "tunnel": [
+              "00:5b:27:80:00:02"
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "node_id": "beste",
+    "hostname": "GW_Beste",
+    "hardware": {
+        "model": "x64"
+    },
+    "software": {
+        "firmware": {
+                "release": "jessie",
+                "base": "Debian"
+        }
+    },
+    "location": {
+      "longitude": 10.36750,
+      "latitude": 53.71944
+    },
+    "network": {
+      "mesh": {
+        "bat0": {
+          "interfaces": {
+            "tunnel": [
+              "00:5b:27:de:00:03"
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "node_id": "bille",
+    "hostname": "GW_Bille",
+    "hardware": {
+        "model": "x64"
+    },
+    "software": {
+        "firmware": {
+                "release": "jessie",
+                "base": "Debian"
+        }
+    },
+    "location": {
+      "longitude": 10.46500,
+      "latitude": 53.64778
+    },
+    "network": {
+      "mesh": {
+        "bat0": {
+          "interfaces": {
+            "tunnel": [
+              "00:5b:27:80:00:04"
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "node_id": "trave",
+    "hostname": "GW_Trave",
+    "hardware": {
+        "model": "x64"
+    },
+    "software": {
+        "firmware": {
+                "release": "jessie",
+                "base": "Debian"
+        }
+    },
+    "location": {
+      "longitude": 10.60098,
+      "latitude": 54.05412
+    },
+    "network": {
+      "mesh": {
+        "bat0": {
+          "interfaces": {
+            "tunnel": [
+              "00:5b:27:80:00:12"
+            ]
+          }
+        }
+      }
+    }
+  }
+]
+
