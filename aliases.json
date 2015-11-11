@@ -3,9 +3,21 @@
     "node_id": "barnitz",
     "hostname": "GW_Barnitz",
     "hardware": {
-        "model": "x64"
+        "model": "gateway"
+    },
+    "owner": {
+        "contact": "www.kst87.de"
+    },
+    "nodeinfo": {
+        "system": {
+                "site_code": "ffod",
+        },
     },
     "software": {
+        "fastd": {
+                "version": "v17",
+                "enabled": "true"
+        },
         "firmware": {
                 "release": "jessie",
                 "base": "Debian"
@@ -31,7 +43,7 @@
     "node_id": "beste",
     "hostname": "GW_Beste",
     "hardware": {
-        "model": "x64"
+        "model": "gateway"
     },
     "software": {
         "firmware": {
@@ -52,14 +64,15 @@
             ]
           }
         }
-      }
+      },
+      "addresses": ["fddf:bf7:80:0:0:0:a38:3", "fe80:0:0::0:0:0:a38:3"]
     }
   },
   {
     "node_id": "bille",
     "hostname": "GW_Bille",
     "hardware": {
-        "model": "x64"
+        "model": "gateway"
     },
     "software": {
         "firmware": {
@@ -87,7 +100,7 @@
     "node_id": "trave",
     "hostname": "GW_Trave",
     "hardware": {
-        "model": "x64"
+        "model": "gateway"
     },
     "software": {
         "firmware": {
@@ -105,34 +118,6 @@
           "interfaces": {
             "tunnel": [
               "00:5b:27:80:00:12"
-            ]
-          }
-        }
-      }
-    }
-  },
-  {
-    "node_id": "id",
-    "hostname": "Name",
-    "hardware": {
-        "model": "Architektur"
-    },
-    "software": {
-        "firmware": {
-                "release": "Release",
-                "base": "Base"
-        }
-    },
-    "location": {
-      "longitude": 10.42666,
-      "latitude": 53.72666
-    },
-    "network": {
-      "mesh": {
-        "bat0": {
-          "interfaces": {
-            "tunnel": [
-              "00:5b:27:80:00:22"
             ]
           }
         }
