@@ -11,7 +11,7 @@
     "nodeinfo": {
         "system": {
                 "site_code": "ffod",
-        },
+        }
     },
     "software": {
         "fastd": {
