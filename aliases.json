@@ -3,7 +3,7 @@
     "node_id": "barnitz",
     "hostname": "GW_Barnitz",
     "hardware": {
-        "model": "gateway"
+        "model": "Gateway"
     },
     "owner": {
         "contact": "www.kst87.de"
@@ -36,16 +36,29 @@
             ]
           }
         }
-      }
+      },
+      "addresses": ["www.kst87.de", "fddf:bf7:80:0:0:0:a38:2"]
     }
   },
   {
     "node_id": "beste",
     "hostname": "GW_Beste",
     "hardware": {
-        "model": "gateway"
+        "model": "Gateway"
+    },
+    "owner": {
+        "contact": "www.kst87.de"
+    },
+    "nodeinfo": {
+        "system": {
+                "site_code": "ffod"
+        }
     },
     "software": {
+        "fastd": {
+                "version": "v17",
+                "enabled": "true"
+        },
         "firmware": {
                 "release": "jessie",
                 "base": "Debian"
@@ -72,10 +85,21 @@
     "node_id": "bille",
     "hostname": "GW_Bille",
     "hardware": {
-        "model": "gateway"
+        "model": "Gateway"
+    },
+    "owner": {
+        "contact": "www.zemvol.de"
+    },
+    "nodeinfo": {
+        "system": {
+                "site_code": "ffrz"
+        }
     },
     "software": {
-        "firmware": {
+        "fastd": {
+                "version": "v17",
+                "enabled": "true"
+        },
                 "release": "jessie",
                 "base": "Debian"
         }
@@ -93,17 +117,29 @@
             ]
           }
         }
-      }
+      },
+      "addresses": ["fddf:bf7:80:0:0:0:a38:4", "fe80:0:0::0:0:0:a38:4"]
     }
   },
   {
     "node_id": "trave",
     "hostname": "GW_Trave",
     "hardware": {
-        "model": "gateway"
+        "model": "Gateway"
+    },
+    "owner": {
+        "contact": "www.zemvol.de"
+    },
+    "nodeinfo": {
+        "system": {
+                "site_code": "ffrz"
+        }
     },
     "software": {
-        "firmware": {
+        "fastd": {
+                "version": "v17",
+                "enabled": "true"
+        },
                 "release": "jessie",
                 "base": "Debian"
         }
@@ -121,7 +157,8 @@
             ]
           }
         }
-      }
+      },
+      "addresses": ["fddf:bf7:80:0:0:0:a38:12", "fe80:0:0::0:0:0:a38:12"]
     }
   }
 ]
