@@ -1,46 +1,5 @@
 [
   {
-    "node_id": "barnitz",
-    "hostname": "GW_Barnitz",
-    "hardware": {
-        "model": "Gateway"
-    },
-    "owner": {
-        "contact": "www.kst87.de"
-    },
-    "nodeinfo": {
-        "system": {
-                "site_code": "ffod"
-        }
-    },
-    "software": {
-        "fastd": {
-                "version": "v17",
-                "enabled": "true"
-        },
-        "firmware": {
-                "release": "Jessie",
-                "base": "Debian"
-        }
-    },
-    "location": {
-      "longitude": 10.42472,
-      "latitude": 53.72556
-    },
-    "network": {
-      "mesh": {
-        "bat0": {
-          "interfaces": {
-            "tunnel": [
-              "00:5b:27:80:00:02"
-            ]
-          }
-        }
-      },
-      "addresses": ["fddf:bf7:80:0:0:0:a38:2"]
-    }
-  },
-  {
     "node_id": "beste",
     "hostname": "GW_Beste",
     "hardware": {
@@ -161,6 +120,43 @@
         }
       },
       "addresses": ["fddf:bf7:80:0:0:0:a38:12"]
+    }
+  },
+ {
+    "node_id": "viehbach",
+    "hostname": "GW_Viehbach",
+    "hardware": {
+        "model": "Gateway"
+    },
+    "owner": {
+        "contact": "www.kst87.de"
+    },
+    "nodeinfo": {
+        "system": {
+                "site_code": "ffod"
+        }
+    },
+    "software": {
+        "fastd": {
+                "version": "v17",
+                "enabled": "true"
+        },
+        "firmware": {
+                "release": "Jessie",
+                "base": "Debian"
+        }
+    },
+    "network": {
+      "mesh": {
+        "bat0": {
+          "interfaces": {
+            "tunnel": [
+              "00:5b:27:80:00:13"
+            ]
+          }
+        }
+      },
+      "addresses": ["fddf:bf7:80:0:0:0:a38:13"]
     }
   }
 ]
