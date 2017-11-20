@@ -183,6 +183,47 @@
       },
       "addresses": ["fddf:bf7:80:0:0:0:a38:13"]
     }
-  }
+  },
+{
+   "node_id": "hopfenbach",
+   "hostname": "GW_Hopfenbach",
+   "hardware": {
+       "model": "Gateway"
+   },
+   "owner": {
+       "contact": "technik@lauenburg.freifunk.net"
+   },
+   "nodeinfo": {
+       "system": {
+               "site_code": "ffrz"
+       }
+   },
+   "software": {
+       "fastd": {
+               "version": "v17",
+               "enabled": "true"
+       },
+       "firmware": {
+               "release": "Jessie",
+               "base": "Debian"
+       }
+   },
+   "location": {
+     "longitude": 10.237658,
+     "latitude": 53.660125
+   },
+   "network": {
+     "mesh": {
+       "bat0": {
+         "interfaces": {
+           "tunnel": [
+             "00:5b:27:80:01:28"
+           ]
+         }
+       }
+     },
+     "addresses": ["fddf:bf7:80:0:0:0:128:1"]
+   }
+ }
 ]
 
